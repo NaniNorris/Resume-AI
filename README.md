@@ -1,4 +1,4 @@
-#Resume Builder App with Streamlit and open scource language model
+**Resume Builder App with Streamlit and open scource language model**
 
 
 This repository contains a sample code for building a personalized resume builder app using Streamlit and open scource language model (CPU based LLMs).
