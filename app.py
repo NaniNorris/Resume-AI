@@ -153,7 +153,7 @@ with skills:
 2.Certification 2
 3. Certification 3""")
         
-doc = DocxTemplate("GL+Resume+Template29.docx")
+doc = DocxTemplate("Resume+Template.docx")
 
 if len(context.keys()) == 34:
     if st.button("Generate Resume"):
