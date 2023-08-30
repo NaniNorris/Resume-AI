@@ -2,13 +2,16 @@ import streamlit as st
 from langchain import PromptTemplate, LLMChain
 from langchain.llms import GPT4All
 from docxtpl import DocxTemplate
-import io
+import io,os
 
 # Model Logic
 @st.cache_resource
 # Model path
 def load_model():
-    path = r"D:\Great learning\NLP\LLM models\wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin"
+    try:
+        path = r"D:\Great learning\NLP\LLM models\wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin"
+    except:
+        path = os.path.join("Model","wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin")
     # model call
     llm = GPT4All(model=path,verbose=True)
     return llm
