@@ -15,6 +15,7 @@ Hope you find this project useful and inspiring!
 
 Instructions to set the app.
 1. Clone this git repo.
-2. Download model from the following link https://gpt4all.io/models/wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin in the same diractory 
-3. Run command prompt with command streamlit run app.py
-4. Fill in the required details asked by the app then click generate resume and download resume.
+2. Intall required packages from requirement.txt
+3. Download model from the following link https://gpt4all.io/models/wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin in the same diractory 
+4. Run command prompt with command streamlit run app.py
+5. Fill in the required details asked by the app then click generate resume and download resume.
