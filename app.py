@@ -11,7 +11,7 @@ def load_model():
     try:
         path = r"D:\Great learning\NLP\LLM models\wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin"
     except:
-        path = os.path.join("Model","wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin")
+        path = os.path.join("wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin")
     # model call
     llm = GPT4All(model=path,verbose=True)
     return llm
